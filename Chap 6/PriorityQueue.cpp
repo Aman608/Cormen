@@ -74,7 +74,7 @@ class Priority_queue
 			for(int i=n; i>=0;i--)
 				this->max_heapify_iterative(i,n);
 		}
-		void heap_sort(int a[], int n)
+		void heap_sort()
 		{
 
 			this->build_heap();
